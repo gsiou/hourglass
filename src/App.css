@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Work+Sans&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +12,12 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-header h1 {
+  font-family: 'Lato', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: normal;
 }
 
 .App-header {
@@ -23,11 +35,62 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.Frontpage {
+  font-size: 100px;
+  height: 100vh;
+  font-family: 'Work Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.Frontpage input {
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.Frontpage input[type="number"] {
+  width: 230px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.Frontpage input[type="date"] {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.Hourglass {
+  font-size: 200px;
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+  animation: Hourglass-rotate-back 1s;
+}
+
+.Hourglass:hover {
+  background-color: #282c34;
+  color: white;
+  transition: background-color .1s ease-out, border .1s ease-out;
+  border: 5px solid white;
+  animation: Hourglass-rotate 1s;
+}
+
+
+@keyframes Hourglass-rotate {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes Hourglass-rotate-back {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }
