@@ -87,14 +87,12 @@ html {
   padding-left: 40px;
   padding-right: 40px;
   cursor: pointer;
-  border: 4px solid rgba(0, 0, 0, 0.7);
+  border: 4px solid rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.7);
   font-size: 45px;
 }
 
 .Next:hover {
-  padding-left: 60px;
-  padding-right: 60px;
   border: 4px solid rgba(0, 0, 0, 1);
   transition: all .4s ease-out;
 }
