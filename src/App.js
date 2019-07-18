@@ -20,6 +20,9 @@ function App() {
           <p>
             I believe I'll die at the age of <input type="number" max={120}/>
           </p>
+          <div className="Action">
+            <button className="Next">Next <span className="fas fa-long-arrow-alt-right"/></button>
+          </div>
         </div>
     </div>
   );
