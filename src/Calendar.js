@@ -10,10 +10,12 @@ export default () => {
   const lifespan = parseInt(localStorage.getItem('lifespan'));
 
   const weeksAlive = (today - bday) / 60 / 60 / 24 / 7;
+  const weeksLeft = (bday + lifespan - today) / 60 / 60 / 24 / 7;
   return (
     <div className="App">
       <p>Calendar page</p>
       <p>Weeks alive: {weeksAlive}</p>
+      <p>Weeks left: {weeksLeft}</p>
     </div>
   );
 }
