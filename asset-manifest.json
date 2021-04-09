@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hourglass/static/css/main.ae598ae7.chunk.css",
+    "main.js": "/hourglass/static/js/main.aa2927d0.chunk.js",
+    "main.js.map": "/hourglass/static/js/main.aa2927d0.chunk.js.map",
+    "runtime~main.js": "/hourglass/static/js/runtime~main.8b1124f6.js",
+    "runtime~main.js.map": "/hourglass/static/js/runtime~main.8b1124f6.js.map",
+    "static/js/2.23de473d.chunk.js": "/hourglass/static/js/2.23de473d.chunk.js",
+    "static/js/2.23de473d.chunk.js.map": "/hourglass/static/js/2.23de473d.chunk.js.map",
+    "index.html": "/hourglass/index.html",
+    "precache-manifest.59dee1bf12f19c2a175e8f080dc0674f.js": "/hourglass/precache-manifest.59dee1bf12f19c2a175e8f080dc0674f.js",
+    "service-worker.js": "/hourglass/service-worker.js",
+    "static/css/main.ae598ae7.chunk.css.map": "/hourglass/static/css/main.ae598ae7.chunk.css.map"
+  }
+}
