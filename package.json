@@ -1,4 +1,5 @@
 {
+  "homepage": "https://gsiou.github.io/hourglass",
   "name": "hourglass",
   "version": "0.1.0",
   "private": true,
@@ -33,6 +34,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  },
-  "homepage": "https://gsiou.github.io/hourglass"
+  }
 }
