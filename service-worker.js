@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hourglass/precache-manifest.9368a80558344fbaf43739b06314119a.js"
+  "/hourglass/precache-manifest.ae8bda5621a59377337d81e640563406.js"
 );
 
 self.addEventListener('message', (event) => {

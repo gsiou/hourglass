@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d16bb9875508bee5369db6b0a867990b",
+    "revision": "22b03d8d4db7bd1a965f5a9f4c439fd3",
     "url": "/hourglass/index.html"
   },
   {
-    "revision": "6a52ec7020fe384275db",
+    "revision": "2c12514a704a06060c46",
     "url": "/hourglass/static/css/main.503a1118.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hourglass/static/js/2.1c321c6b.chunk.js"
   },
   {
-    "revision": "6a52ec7020fe384275db",
-    "url": "/hourglass/static/js/main.33d2f397.chunk.js"
+    "revision": "2c12514a704a06060c46",
+    "url": "/hourglass/static/js/main.7dcc0996.chunk.js"
   },
   {
     "revision": "dfc313d3a4a2ce676652",
