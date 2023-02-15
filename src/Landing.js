@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
-import { Link } from "@reach/router"
+import React, { useState, useEffect } from 'react'
+import { Link } from "react-router-dom";
 
 const goToPage  = () => {
-    window.location.href = '#start'
+    document.getElementById("start").scrollIntoView({
+        block: 'start',
+        behavior: 'smooth'
+      });
 }
 
 export default () => {
