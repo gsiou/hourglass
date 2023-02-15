@@ -12,6 +12,10 @@ export default () => {
   const [bday, setBday] = useState(new Date(0));
   const [lifespan, setLifespan] = useState(80);
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const store = () => {
     localStorage.setItem('bday', JSON.stringify(Math.floor(new Date(bday).getTime()/1000)));
     localStorage.setItem('lifespan', JSON.stringify(lifespan * 365 * 24 * 60 * 60));

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const goToPage  = () => {
     window.location.href = '#start'
@@ -27,12 +27,17 @@ export default () => {
   const weeksLeft = (bday + lifespan - today) / 60 / 60 / 24 / 7;
   const calendarContent = [<Counter count={0}/>]
   for(let i = 0; i < weeksAlive + weeksLeft; i++) {
-    calendarContent.push(<Week past={i < weeksAlive}/>)
+    calendarContent.push(<Week past={i < weeksAlive}/>);
     if ((i + 1) % 52 == 0) {
-      calendarContent.push(<br/>)
-      calendarContent.push(<Counter count={Math.floor(i/52 + 1)}/>)
+      calendarContent.push(<br/>);
+      calendarContent.push(<Counter count={Math.floor(i/52 + 1)}/>);
     }
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div className="App">
       <div className='ModeSelector'>
