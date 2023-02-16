@@ -45,7 +45,7 @@ export default () => {
         <a className={`${mode === 1 ? 'active': ''}`} href="#" onClick={(e) => setMode(1)}>Optimistic</a>
         <a className={`pes ${mode === 2 ? 'active': ''}`} href="#" onClick={(e) => setMode(2)}>Pessimistic</a>
       </div>
-      <p>Weekend Calendar</p>
+      <h1>Weekend Calendar</h1>
       <p>Weekends <span className='past'>alive</span>: {Math.floor(weeksAlive)} | Weekends <span className='future'>left</span>: {Math.floor(weeksLeft)}</p>
       <div className={`Calendar ${ mode === 1 ? 'opt' : mode === 2 ? 'pes' : ''}`}>
         {calendarContent}
