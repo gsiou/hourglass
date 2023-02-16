@@ -20,7 +20,7 @@ export default () => {
   const [mode, setMode] = useState(0);
 
   const today = new Date().getTime() / 1000;
-  const bday = parseInt(localStorage.getItem('bday'));
+  const bday = new Date(localStorage.getItem('bday')).getTime() / 1000;
   const lifespan = parseInt(localStorage.getItem('lifespan'));
 
   const weeksAlive = (today - bday) / 60 / 60 / 24 / 7;

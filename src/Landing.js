@@ -17,7 +17,7 @@ export default () => {
 
     // if we have stored bday, prefill
     if (localStorage.getItem('bday')) {
-      setBday(new Date(JSON.parse(localStorage.getItem('bday'))).toISOString().substring(0, 10));
+      setBday(localStorage.getItem('bday'));
     }
     if (localStorage.getItem('lifespan')) {
       setLifespan(JSON.parse(localStorage.getItem('lifespan') / 365 / 24 / 60 / 60));
@@ -25,7 +25,7 @@ export default () => {
   }, [])
 
   const store = () => {
-    localStorage.setItem('bday', JSON.stringify(Math.floor(new Date(bday).getTime()/1000)));
+    localStorage.setItem('bday', new Date(bday).toISOString().substring(0, 10));
     localStorage.setItem('lifespan', JSON.stringify(lifespan * 365 * 24 * 60 * 60));
   }
 
