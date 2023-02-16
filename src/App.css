@@ -137,9 +137,7 @@ span.future {
 }
 
 .ModeSelector {
-  position: absolute;
-  left: 15px;
-  top: 5px;
+  padding-top: 20px;
 }
 
 .ModeSelector a{
