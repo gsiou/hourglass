@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hourglass/static/css/main.a9e3bdd5.css",
-    "main.js": "/hourglass/static/js/main.2a774528.js",
+    "main.js": "/hourglass/static/js/main.7683c52b.js",
     "index.html": "/hourglass/index.html",
     "main.a9e3bdd5.css.map": "/hourglass/static/css/main.a9e3bdd5.css.map",
-    "main.2a774528.js.map": "/hourglass/static/js/main.2a774528.js.map"
+    "main.7683c52b.js.map": "/hourglass/static/js/main.7683c52b.js.map"
   },
   "entrypoints": [
     "static/css/main.a9e3bdd5.css",
-    "static/js/main.2a774528.js"
+    "static/js/main.7683c52b.js"
   ]
 }
