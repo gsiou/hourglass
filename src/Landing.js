@@ -14,6 +14,14 @@ export default () => {
 
   useEffect(() => {
     window.scrollTo(0, 0)
+
+    // if we have stored bday, prefill
+    if (localStorage.getItem('bday')) {
+      setBday(new Date(JSON.parse(localStorage.getItem('bday'))).toISOString().substring(0, 10));
+    }
+    if (localStorage.getItem('lifespan')) {
+      setLifespan(JSON.parse(localStorage.getItem('lifespan') / 365 / 24 / 60 / 60));
+    }
   }, [])
 
   const store = () => {
